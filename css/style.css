@@ -1,0 +1,115 @@
+/* Importing Google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); 
+
+/* Importing all components file */
+@import url("components/avater.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/banner.css"); 
+@import url("components/card.css");
+
+
+/* General style rules for fonts and colours */
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color:rgb(240,240,240);
+	font-size:18px;
+	margin: 0;
+
+}
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	font-weight : bold;
+}
+
+ a {
+ 	text-decoration: none;
+ } 
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li:hover a {
+  color: #FFF2CC;
+}
+
+nav ul li:first-child a {
+  color: sandybrown;
+}
+
+.strong {
+	color: sandybrown;
+}
+
+.phone-number {
+  font-weight: bold;
+}
+
+.fa-phone:before {
+  content: "\f095";
+  margin-left: 600px;
+}
+
+.list-inline {
+  list-style:none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+     display: inline;
+     padding: 10px;
+}
+
+.list-inline i{
+     font-size: 50px;
+     color: #A9907E
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #F3DEBA;
+  text-decoration: none;
+}
+
+.site-footer {
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 13px;
+  position: absolute;
+  bottom: 1;
+  right: 0;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.site-footer p {
+  margin: 0px;
+
+}
+

@@ -1,0 +1,19 @@
+.btn-blue {
+	background-color: #E3CCAE;
+	padding : 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-pink{
+	background-color: burlywood;
+	padding : 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;
+
+}
